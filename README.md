@@ -6,15 +6,21 @@
 
 Start server in shell.
 
-$ node all-purpose-web-application.js [port]
+```
+$ node all-purpose-web-application.js <port>
+```
 
 Example:
+```
 $ node all-purpose-web-application.js 8080
+```
 
 Open listen page in web browser.
 
 Example:
+```
 $ http://localhost:8080/listen
+```
 
 Enter new web application's port number and handler program.
 
@@ -32,12 +38,14 @@ Example:
 };
 ```
 
-And submit.
+Then submit.
 
 Open the new web application's page in web browser.
 
 Example:
+```
 $ http://localhost:8081/t
+```
 
 You'll see the new web application that loaded dynamically.
 ![service image](docs/service.png)
