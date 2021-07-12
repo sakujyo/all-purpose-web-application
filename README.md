@@ -1,4 +1,4 @@
-# all-purpose-web-application: An Web Application of Web Applications
+# all-purpose-web-application: A Web Application of Web Applications
 
 ![listen image](docs/listen.png)
 
