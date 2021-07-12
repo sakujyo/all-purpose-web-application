@@ -49,3 +49,11 @@ $ http://localhost:8081/t
 
 You'll see the new web application that loaded dynamically.
 ![service image](docs/service.png)
+
+## Prerequisites
+
+Node.js (We tested on Node.js v14.)
+
+## Acknowledgments
+
+Node.js, およびファミリーマートのベンチとデーリィコーヒーの皆様に感謝します。
