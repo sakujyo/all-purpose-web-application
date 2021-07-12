@@ -19,7 +19,10 @@ $ http://localhost:8080/listen
 Enter new web application's port number and handler program.
 
 Example:
+```
 8081
+```
+```
 (req, res) => {
   if (req.url == '/t' && req.method == 'GET') {
     res.writeHeader(200);
@@ -27,6 +30,7 @@ Example:
     res.end();
   }
 };
+```
 
 And submit.
 
