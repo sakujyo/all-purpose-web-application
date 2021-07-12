@@ -47,7 +47,7 @@ Example:
 $ http://localhost:8081/t
 ```
 
-You'll see the new web application that is loaded dynamically.
+You'll see the new web application that was loaded dynamically.
 ![service image](docs/service.png)
 
 ## Prerequisites
