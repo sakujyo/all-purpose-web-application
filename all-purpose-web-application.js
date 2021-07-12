@@ -1,10 +1,7 @@
-//port = 8081; app = (req, res) => { if (req.url == '/t' && req.method == 'GET') { res.writeHeader(200); res.write('<div>Module is listening.</div>'); res.end(); } };
-//curl -H "Content-Type: plain/text" -d "port = 8081; app = (req, res) => { if (req.url == '/t' && req.method == 'GET') { res.writeHeader(200); res.write('<div>Module is listening.</div>'); res.end(); } };" http://localhost:8080/load
 const http = require('http');
 const vm = require('vm');
 
 http.createServer((req, res) => {
-	//console.log(req.url);
 	if (req.url == '/load' && req.method == 'POST') {
 		let data = '';
 		req.on('data', chunk => {
